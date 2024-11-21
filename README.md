@@ -1,3 +1,75 @@
+# File Sharing and Management Systems
+
+This project focuses on the **Configuration of File Sharing and Management Systems**. The project examines the widely used **Network File System (NFS)** for Linux-based systems and **Samba**, which facilitates file sharing across different operating systems.
+
+---
+
+## 📚 Content
+
+- **Network File System (NFS):**
+  - Core functions of NFS
+  - Advantages and disadvantages
+  - Security measures
+- **Samba:**
+  - Functionality and usage areas of Samba
+  - Advantages and disadvantages
+  - Security measures and performance metrics
+- **Comparison of NFS and Samba:**
+  - Design differences
+  - Shared resources
+  - Client-to-client communications
+
+---
+
+## 🛠️ Technologies Used in the Project
+
+- **NFS (Network File System):** Used for file and data sharing on Linux-based systems.
+- **Samba:** Enables file sharing across different operating systems.
+- **Linux:** Used as the primary operating system.
+
+---
+
+## 🚀 Setup and Execution
+
+1. **NFS Setup:**
+   - Configure the NFS server on your Linux distribution.
+   - Specify the files and directories to be shared.
+   - Start the `nfs-kernel-server` service.
+   
+2. **Samba Setup:**
+   - Install Samba: `sudo apt install samba`
+   - Edit the `smb.conf` file to define shared directories.
+   - Start the Samba service: `sudo service smbd start`
+   
+3. **System Testing:**
+   - Verify NFS and Samba configurations by connecting from clients.
+
+---
+
+## ⚡ Features
+
+- **Easy Management:** Provides centralized storage and remote access.
+- **Security Measures:** Configured to ensure data security during file sharing.
+- **Performance Metrics:** Optimized to enhance file sharing speed.
+
+---
+
+## 📊 Performance and Security
+
+- **NFS:** Offers simple and fast configuration but requires additional security measures.
+- **Samba:** Provides extensibility and compatibility with different operating systems, optimized through performance tuning.
+
+---
+
+## 👥 Contributors
+
+- Nasif Can Yavuz - 201401019
+- Ömer Polat - 201401057
+- Doğukan Erzurum - 201401023
+- Ramazan Serhat Uygun - 201401049
+
+---
+
 # Dosya Paylaşımı ve Yönetim Sistemleri
 
 Bu proje, **Dosya Paylaşımı ve Yönetim Sistemlerinin Yapılandırılması** konusunu ele almaktadır. Proje kapsamında, Linux tabanlı sistemler için yaygın olarak kullanılan **Network File System (NFS)** ve farklı işletim sistemleri arasında dosya paylaşımına olanak sağlayan **Samba** sistemleri incelenmiştir.
@@ -67,4 +139,3 @@ Bu proje, **Dosya Paylaşımı ve Yönetim Sistemlerinin Yapılandırılması** 
 - Ömer Polat - 201401057
 - Doğukan Erzurum - 201401023
 - Ramazan Serhat Uygun - 201401049
-
